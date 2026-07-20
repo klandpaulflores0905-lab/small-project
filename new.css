@@ -9,7 +9,6 @@ html{
 body{
   background: linear-gradient(to bottom, white, beige);
   min-height: 100vh;
-
 }
 
 .navbar{
@@ -155,8 +154,8 @@ nav li:first-child{
 }
 
 .information{
-    height: 90%;
-    width: 40%;
+    height: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 
