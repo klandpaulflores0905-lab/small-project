@@ -47,6 +47,8 @@ body{
   text-align: center;
 
   border-radius: 360px;
+
+  box-shadow: 0 0 10px 1px black;
 }
 /*
 .eye p{
@@ -57,21 +59,23 @@ body{
 }*/
 
 #one{
-  background-color: black;
+  background-color: gray;
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 360px;
 
   margin: 40px auto;
+  box-shadow: 0 0 10px 1px black;
 }
 
 #two{
-  background-color: black;
+  background-color: darkblue;
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 360px;
 
   margin: 40px auto;
+  box-shadow: 0 0 10px 1px black;
 }
 
 .mouth{
@@ -86,6 +90,7 @@ body{
   margin-right: auto;
 
   border-radius: 0 0 30px 30px;
+  box-shadow: 0 0 10px 1px black;
 }
 
 .one{
