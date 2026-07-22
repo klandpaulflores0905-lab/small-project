@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="kland paul flores" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@email.com" required>
+
+            <label for="position">Position:</label>
+            <select id="position">
+                <option value="">Select a Position</option>
+                <option value="Developer">Developer</option>
+                <option value="Designer">Designer</option>
+                <option value="Manager">Manager</option>
+            </select>
+
+            <fieldset class="radio-group">
+                <legend>Avialability:</legend>
+                <input type="radio" class="radiobtn" name="availability" id="fulltime">
+                <label for="fulltime">Full-Time</label>
+                <input type="radio" class="radiobtn" name="availability" id="parttime">
+                <label for="parttime">Part-Time</label>
+            </fieldset>
+
+            <label for="message">Why do you want this job?</label>
+            <textarea id="message" rows="5"></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
